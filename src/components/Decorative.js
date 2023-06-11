@@ -6,7 +6,7 @@ import "./Decorative.css";
 function Decorative() {
   return (
     <div className="decorative-container">
-      <video src="./Portfolio/videos/video-5.mp4" autoPlay loop muted />
+      <video src="./Portfolio/video-5.mp4" autoPlay loop muted />
       <h1>TEST HEADER</h1>
       <p>Test paragraph</p>
       <div className="decorative-btns">
