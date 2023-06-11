@@ -29,7 +29,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/Portfolio"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             Loserchik67 <i className="fa-solid fa-mountain-sun"> </i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
