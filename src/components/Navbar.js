@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link
-            to="/Portfolio"
+            to="/Portfolio/"
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
